@@ -10,3 +10,4 @@ public class Car {
 		System.out.println(wheels+" Wheeler"+color+"color"+type+" is acclerating");
 	}
 }
+	
