@@ -1,13 +1,16 @@
-package oops.inheritance;
+package oops.polymorphism;
 
-public class Teju {
+import oops.inheritance.Smartphone;
+import oops.inheritance.Telephone;
+
+public class Dynamic_polymorphism {
 
 	public static void main(String[] args) {
 		Smartphone phone = new Smartphone();
 		phone.calling();
 		phone.texting();
 		phone.internet();
-		
+
 		Telephone phone2 = new Telephone();
 		phone2.calling();
 		//runtime binding and dynamic polymorphism,runtime polymorphism.
@@ -15,4 +18,7 @@ public class Teju {
 		phone3.calling();
 	}
 
+
 }
+
+
